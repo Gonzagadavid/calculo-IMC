@@ -1,6 +1,6 @@
-# Calculadora de índice de massa corporal
+# Calculadora de índice de massa corporal :no_entry_sign: :hamburger: :fries: :pizza: 
 
-:no_entry_sign: :hamburger: :fries: :pizza: 
+
 
 
 
