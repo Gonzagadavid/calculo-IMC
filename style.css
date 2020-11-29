@@ -14,7 +14,7 @@ header .titulo{
     justify-content: center;
     height: 200px;
     font-size: 40px;
-    background-image: url(/img/imc-ilustracao.jpg);
+    background-image: url(imc-ilustracao.jpg);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 90px;
     font-style: italic;
