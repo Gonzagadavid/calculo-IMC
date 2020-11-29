@@ -1,9 +1,9 @@
 // função para o calculo de IMC com as condições para o feedback
 function calcule () {
   const peso = document.informacao.peso.value
-  if(peso < 20 || peso > 300){return alert(`Peso inválido\n Favor preencher o campo corretamente`)}
+  if (peso < 20 || peso > 300) { return alert('Peso inválido\n Favor preencher o campo corretamente') }
   const altura = document.informacao.altura.value
-  if(altura < 1 || altura > 2.1){return alert(`altura inválida\n Favor preencher o campo corretamente`)}
+  if (altura < 1 || altura > 2.1) { return alert('altura inválida\n Favor preencher o campo corretamente') }
   const resultado = peso / Math.pow(altura, 2)
 
   document.informacao.result.value = resultado.toFixed(2)
