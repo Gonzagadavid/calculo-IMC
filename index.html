@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora IMC</title>
+</head>
+
+<body>
+    <header><div class="titulo" >Cálculo do IMC</div></header>
+    <div class = "corpo">
+     
+        <div class="texto"><!--container do texto de introdução sobre o IMC -->
+               <h2>Sobre o índice de massa corporal</h2>
+            <p class="textoP">O IMC (Índice de Massa Corporal) é uma ferramenta usada para detectar casos de obesidade ou desnutrição, principalmente em estudos que envolvem grandes populações.
+                De acordo com o endocrinologista Mario Kedhi Carra, membro da Associação Brasileira para o Estudo da Obesidade e da Síndrome Metabólica (ABESO), essa é uma medida universal de classificação de obesidade, validada pela Organização Mundial da Saúde.
+                É possível encontrar o resultado do índice fazendo uma conta que envolve a relação do peso de uma pessoa em quilos com a sua altura ao quadrado.
+                Para a avaliação de um paciente individualmente, no entanto, ele pode ser falho por não levar em conta a composição desse peso corporal, que pode ser composto por gordura, músculos, água e estruturas ósseas.</p>
+                </div>
+        <div class=calculadora><!--container da calculadora de IMC-->
+        <h3 class="calc">Calcule seu IMC:</h3>
+        <form name="informacao">
+        </br>
+            <p class="pesoP">Peso(kg):</p>
+            <input  class="peso" type="number" name="peso"  >
+            <p class="alturaP">Altura(m):</p>
+            <input class="altura" type="number" name="altura" ></br>
+             <input class="botao" type="button" value="calcular" onclick="calcule();">
+        <p class="resultP">Resultado:</p>
+        <input class="result" type="text" name="result">
+    <p class="nivelP">Nível:</p>
+    <textarea class="nivel" type="text" name="nivel" ></textarea>
+        </form>
+        </div> 
+    </div>
+</body>
+<script type="text/javascript" src="/calculo.js"></script>
+</html>

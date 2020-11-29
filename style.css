@@ -1,0 +1,148 @@
+/*formatação inicial */
+*{                           
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+} 
+
+/* formatação do titulo */
+header .titulo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    font-size: 40px;
+    background-image: url(/img/imc-ilustracao.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 90px;
+    font-style: italic;
+ 
+}
+
+/* formatação do texto */
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    font-size: 30px;
+    background-color: rgb(154, 253, 248);
+    font-style: italic;
+}
+
+.textoP{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+/* formatação da calculadora */
+.calculadora{
+    font-style: oblique;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   background-color:  rgb(154, 253, 248);
+}
+
+.calc{
+    margin: 10px;
+    font-size: 35px;
+    font-style: italic;
+}
+
+.pesoP{
+    font-size: 20px;
+    margin-left: 10px;  
+}
+
+.peso{
+    height: 35px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(198, 197, 255);
+    padding: 10px;
+}
+
+.alturaP{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.altura{
+    height: 35px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(198, 197, 255);
+    padding: 10px;
+}
+
+.botao{
+    margin-top: 20px;
+    margin: 10px;
+    height: 40px;
+    width: 80px;
+    font-size: 18px;
+    font-style: oblique;
+    background-color: plum;
+}
+
+.resultP{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.result{
+    height: 35px;
+    margin: 10px;
+    font-size: 20px;
+    background-color: rgb(198, 197, 255);
+    padding: 10px;
+}
+
+.nivelP{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nivel{
+    display: flex;
+    height: 230px;
+    width: 500px;
+    margin: 10px;
+    background-color: rgb(198, 197, 255);
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+/* ajuste de resposividade*/
+@media(max-width:920px){
+    .texto{
+        display: none;
+    }
+}
+
+@media(max-width:515px){
+    .nivel{
+        width: 300px;
+    }
+}
+
+@media(max-width:310px){
+    .nivel{
+        width:230px;
+        height: 130px;
+    }
+
+  header .titulo{
+        font-size: 40px;
+    }
+}
